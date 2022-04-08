@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# readws.sh
+# Extraction de S/N de terminaux TELIUM2 et dates d'expiration de certificats IngeTrust.
+# Entrée: fichiers dans le répertoire ./input_files
+# Sortie: fichiers dans ./
+
 # Nettoyage
 rm serial_numbers.txt
 rm exp_dates.txt
